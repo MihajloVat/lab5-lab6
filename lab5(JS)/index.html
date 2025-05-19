@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Графічне представлення графів</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .canvas-container {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        canvas {
+            border: 1px solid black;
+            background: #fff;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 700px;
+            height: 700px;
+        }
+
+        button {
+            margin-right: 10px;
+            margin-top: 20px;
+            padding: 10px 15px;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Варіант 4208</h1>
+Спочатку проклацайте до кінця DFS,потім натисніть clear і проклацайте BFS
+<div id="buttons">
+    <button id="dfsButton">DFC</button>
+    <button id="clButton">clear</button>
+    <button id="bfsButton">BFC</button>
+</div>
+
+<div class="canvas-container">
+    <canvas id="canvas2" width="700" height="700"></canvas>
+    <canvas id="canvas1" width="700" height="700"></canvas>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
